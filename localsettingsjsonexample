@@ -1,0 +1,23 @@
+{
+    "IsEncrypted": false,
+"Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureFunctionsJobHost__functionTimeout": "02:00:00",
+    "AZURE_ENDPOINT": "https://example-aoai-endpoint.openai.azure.com/",
+    "API_VERSION": "2024-05-01-preview",
+    "AOAI_API_KEY": "your-aoai-api-key",
+    "ASSISTANT_NAME": "assistant-name",
+    "BING_SEARCH_SUBSCRIPTION_KEY": "your-bing-search-subscription-key",
+    "BING_SEARCH_URL": "https://api.bing.microsoft.com/v7.0/search",
+    "DEPLOYMENT_NAME": "deployment-name",
+    "AZURE_MAPS_SUBSCRIPTION_KEY": "your-azure-maps-subscription-key",
+    "TOMORROWIO_API_KEY": "your-tomorrowio-api-key",
+    "BING_KEY": "your-bing-key",
+    "BING_ENDPOINT": "https://api.bing.microsoft.com/v7.0/search"
+},
+  "Host": {
+    "CORS": "http://localhost:3000"
+  }
+}
